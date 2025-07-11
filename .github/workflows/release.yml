@@ -2,7 +2,7 @@ name: Release
 on:
   workflow_dispatch:  # Ручной запуск
   push:
-    tags: ['v*']     # Автозапуск при тегах (например, v1.0.0)
+    tags: ['v*']     # автозапуск при тегах
 
 jobs:
   deploy:
